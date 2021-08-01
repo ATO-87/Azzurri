@@ -1,0 +1,638 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    
+    
+    
+  
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 100%; 
+    height: 50%;
+    align-items: center;
+    padding-bottom: 20px;
+    background: rgb(19,138,10);
+    background: linear-gradient(45deg, rgba(19,138,10,0.8459869848156182) 0%, rgba(255,255,255,0) 54%, rgba(255,2,2,0.8546637744034707) 100%);
+    /* border-top-left-radius: 10%;
+    border-top-right-radius: 10%; */
+    
+}
+
+
+/* .teamName {
+    margin-top: 2%;
+
+} */
+
+
+/* .italy {
+    font-family: "roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+} */
+
+.itaLogo {
+    text-align: center;
+    margin-top: 3%;
+    
+
+}
+
+#logotop {
+    width: 40%;
+
+
+}
+
+
+
+#title {
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    
+    
+}
+
+
+.main-title {
+    margin-top: 3%;
+}
+
+
+
+#title-caption {
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    
+    
+
+
+}
+
+#img-div {
+    font-size: 0; /* to get rid of the gap between pictures on the same line */
+    display: flex; 
+    justify-content: center;
+    padding-top: 20px;
+   
+   
+}
+
+/* #image {
+    width: 30%;
+    
+} */
+
+#image-center {
+    width: 100%;
+    /* display: inline-block; */
+
+}
+
+/* #image-end {
+    width: 30%;
+    /* display: inline-block; */
+
+
+
+#tribute-info {
+background-color: rgb(64, 111, 211);
+margin-top: 0; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-bottom: 3em;
+
+}
+
+
+
+#title-two {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: .2em;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+ 
+}
+    
+#stars {
+    font-size: 1.2em;
+    letter-spacing: .5em;
+    text-align: center;
+    padding-bottom: 10px; 
+    justify-content: center;  
+}
+
+
+#stripeOne {
+height: 10px;
+background-color: rgb(96, 221, 96);
+}
+
+#stripeOneTop {
+margin-top: .4em;
+height: 10px;
+background-color: rgb(96, 221, 96);
+}
+
+#stripeTwo {
+height: 10px;
+background-color: white;
+}
+
+#stripeThree {
+height: 10px;
+background-color: red;
+}
+
+
+.matchboxTop {
+    background-color: white;
+    width: 95vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    align-self: center;
+    margin-top: 30px;
+    
+
+}
+#nextMatch {
+    background: white;
+    width: 95vw;
+    align-self: center;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "main content1 content2 sidebar"
+    "footer footer footer footer"; 
+    justify-items: center; 
+    
+
+}
+
+#nextMatchbottom {
+    background: white;
+    width: 95vw;
+    align-self: center;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "main content1 content2 sidebar"
+    "footer footer footer footer"; 
+    justify-items: center; 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 15px;
+   
+   
+}
+
+#matchesHeader {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: .1em;
+   
+}
+
+
+#matchdates {
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    font-size: 14px;
+    grid-area: nav;
+   
+}
+
+#matchday {
+    text-transform: uppercase;
+    font-size: 1.5em; /* for larger resolutions use 3 EM media quiery */
+    grid-area: main;
+    
+    
+}
+
+#gameTeamOne {
+    grid-area: content1;
+    
+}    
+
+#gameTeamTwo {
+    grid-area: content2;
+   
+
+}
+    
+    
+
+#matchdayversus {
+    text-transform: uppercase;
+    font-size: 1.5em; /* for larger resolutions use 3 EM media quiery */
+    grid-area: sidebar;
+     
+    
+}
+
+#matchType {
+    grid-area: footer;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: grey;
+    font-size: 12px;
+}
+
+
+#matchflagsone {
+    width: 1.5em; /* use 3 em in media query */
+    padding-top: 5px; /* use 3px in media query */
+   
+}
+
+#matchflagstwo {
+    width: 1.5em; /* use 3 em in media query */
+    padding-top: 5px;/* use 8px in media query */
+   
+}
+
+
+#squad {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+ 
+  
+}
+
+.squadheader {
+    text-align: center;
+  
+}
+
+#squadheadertext {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: .3em;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+
+
+.squadmembers {
+display: flex;
+flex-direction: column;
+align-self: center;
+width: 100%;
+height:100%;
+
+
+
+
+}
+
+
+#teamList {
+display: flex;
+flex-direction: column;
+align-self: center;
+width: 50%;
+
+
+
+
+}
+
+#teamListbottom {
+display: flex;
+flex-direction: column;
+align-self: center;
+width: 50%;
+padding-bottom: 3em;
+
+
+
+
+}
+
+hr {
+    border-color: rgb(64, 111, 211);
+    border-bottom: none;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;    
+   
+}
+
+#playerheaders {
+   
+letter-spacing: .1em;
+text-transform: uppercase;
+font-weight: 400;
+text-align: center;
+;
+
+
+
+}
+
+#playerheadersTwo {
+letter-spacing: .1em;
+text-transform: uppercase;
+font-weight: 400;
+text-align: center;
+
+}
+
+#playerList {
+text-align: center;
+width: 100%;
+align-content: space-around;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 400;
+padding: 5px 0 2px 0;
+
+
+
+
+
+}
+
+#playerNumber {
+    font-weight: 700;
+    color:crimson;
+}
+
+#teamRecord {
+   
+}
+
+#final {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+
+}
+#lastMatchRecord {
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 0 10px;
+    background-color: rgb(64, 111, 211);
+
+    
+}
+
+.tableDiv {
+    text-align: center;
+    
+}
+
+#matchRecords {
+ font-size: 2em;
+ text-transform: uppercase;
+ font-weight: 400;
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-bottom: 5px;
+
+}
+
+table {
+    width: 100%;
+    text-align: center;
+
+}
+
+th {
+    font-size: 4em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+td {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+
+
+#wcTrophies {
+ width: 25%;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 0 10px;
+    background-color: rgb(64, 111, 211);
+    text-align: center;
+}
+
+#EuroTrophies {
+width: 25%;
+border: 2px solid black;
+border-radius: 15px;
+text-align: center;
+padding: 10px 0 10px;
+background-color: rgb(64, 111, 211);
+text-align: center;
+  
+}
+
+#TrophyText {
+    font-size: 2em;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#numberText {
+    font-size: 6em;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+#info {
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:  rgb(64, 111, 211);
+    text-transform:  uppercase;
+}
+#footer {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-self: center;
+    background-color: rgb(64, 111, 211);
+    text-align: center;
+    width: 100vw;
+    height: 50%;
+}
+
+.logo-bottom {
+    width: 125px;
+    display: block;
+    margin: auto;
+    padding: 0;
+    transform: translate(0, 50px);
+    
+}
+
+.copyright {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    
+
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+ #final {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between; 
+    
+}
+
+#lastMatchRecord {
+width: 85%;
+align-self: center;
+margin-bottom: 25px;
+margin-top: 25px;
+
+}
+#wcTrophies {
+ width: 85%;
+ align-self: center;
+ margin-bottom: 25px;
+ margin-top: 25px;
+}
+
+#EuroTrophies {
+width: 85%;
+align-self: center;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+}
+
+@media (max-width: 420px) {
+ #final {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between; 
+    
+}
+#matchRecords {
+ font-size: 1.5em;
+}
+
+th {
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+td {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+
+}
+#TrophyText {
+    font-size: 1.5em;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#numberText {
+    font-size: 4em;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
